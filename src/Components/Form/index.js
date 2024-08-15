@@ -36,10 +36,9 @@ function sendEmail(e){
 
 return(
     <div className='contact'>
-    <h1 className='title_Contact'>Informações de Contato</h1>
+    <h1 className='title_Contact'>İletişim</h1>
     <p>
-        Utilize deste formulárop de contato para tirar dúvidas
-        ou obter maiores Informações. Se preferir utilize nosso e-mail ou telefone.
+        Herhangi bir sorunuz varsa veya daha fazla bilgi almak istiyorsanız, bu formu kullanarak bize ulaşabilirsiniz. Dilerseniz, e-posta ya da telefon aracılığıyla da bizimle iletişime geçebilirsiniz.
     </p>
     <p><strong>Telefone: </strong>(xx) 97382 8394</p>
     <p><strong>E-mail: </strong>emailprofissional@gmail.com</p>
