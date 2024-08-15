@@ -40,33 +40,8 @@ return(
     <p>
         Herhangi bir sorunuz varsa veya daha fazla bilgi almak istiyorsanız, bu formu kullanarak bize ulaşabilirsiniz. Dilerseniz, e-posta ya da telefon aracılığıyla da bizimle iletişime geçebilirsiniz.
     </p>
-    <p><strong>Telefone: </strong>(xx) 97382 8394</p>
-    <p><strong>E-mail: </strong>emailprofissional@gmail.com</p>
-
-    <form className='form' onSubmit={sendEmail} >
-        <input 
-            className='input'
-            type='text'
-            placeholder="Digite seu nome"
-            onChange={ (e)=> setName(e.target.value)}
-            value={name}
-        />
-        
-        <input 
-            className='input'
-            type='text'
-            placeholder="Digite seu email"
-            onChange={ (e)=> setEmail(e.target.value)}
-            value={email}
-        />
-
-        <textarea 
-            className='textArea'
-            placeholder="Digite sua mensagem..."
-            onChange={ (e)=> setMessage(e.target.value)}
-            value={message}
-        />
-
+    <p><strong>Telefone: </strong>(90) 531 500 33 88 </p>
+    <p><strong>E-mail: </strong>notronpetshop@gmail.com</p>
         <input className='button_Contact' type="submit" value="enviar" />
     </form> 
 </div>
